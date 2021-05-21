@@ -13,9 +13,10 @@ body {
     'ch c';
     grid-template-columns: 1fr 5fr;
     gap: 1px;
-    background-image: linear-gradient(to right, royalblue, orchid, orchid);
+    background-image: linear-gradient(to right, green, orchid, orchid);
     color: white;
     border-top-left-radius: 5vw;
+    width: 100%
 }
 
 #developerHeader {
