@@ -16,7 +16,6 @@ body {
     background-image: linear-gradient(to right, blue, orchid, orchid);
     color: white;
     border-top-left-radius: 5vw;
-    width: 100vw
 }
 
 #developerHeader {
@@ -74,6 +73,22 @@ h2 {
 
 #contacts {
     grid-area: c;
+}
+
+#contacts img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contacts img:hover {
+    transform: scale(1.2,1.2)rotate(-10deg);
+    transition: .5s;
+}
+
+#mobile td {
+    height: 49px;
 }
 
 table .description {
