@@ -1,125 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-end junior resume</title>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel='stylesheet' href='index.css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Resume</title>
 </head>
-
 <body>
-    <div id="resume">
-        <h1>
-            Resume of junior front-end developer
-        </h1>
-        <h2 id='developerHeader'>
-            Developer
-        </h2>
-        <h2 id='skillsHeader'>
-            Skills
-        </h2>
-        <h2 id='educationHeader'>
-            Education
-        </h2>
-        <h2 id='workHeader'>
-            Work
-        </h2>
-        <h2 id='contactsHeader'>
-            Contacts
-        </h2>
-        <div id="developer">
-            <table>
-                <tr>
-                    <td class="description">Developer:</td>
-                    <td>Vadim Kizenkov, 30 y.o.</td>
-                </tr>
-                <tr>
-                    <td class="description">Location:</td>
-                    <td>Minsk</td>
-                </tr>
-            </table>
+<div class="container">
+    <div class="row bg-dark p-5 align-items-center">
+        <div class="col-sm-3 col-xs-12">
+            <img class="w-50 rounded-circle" src="photo.jpg" alt="avatar"/>
         </div>
-        <div id="skills">
-            <table>
-                <tr>
-                    <td class="description">Skills:</td>
-                    <td>JS, HTML5, CSS3 (grid)</td>
-                </tr>
-                <tr>
-                    <td class="description"></td>
-                    <td>React (hooks)/Redux (thunk), axios, git, formik</td>
-                </tr>
-                <tr>
-                    <td class="description">Training now:</td>
-                    <td> TypeScript and ReactNative</td>
-                </tr>
-                <tr>
-                    <td class="description">English:</td>
-                    <td>Pre-intermediate</td>
-                </tr>
-                <tr>
-                    <td class="description">Github:</td>
-                    <td><a href="https://github.com/kizenkov">https://github.com/kizenkov</a></td>
-                </tr>
-                <tr>
-                    <td class="description">Projects:</td>
-                    <td><a href="https://kizenkov.github.io/soccorn/">Soccorn</a> (login: free@samuraijs.com, password: free)</td>
-                </tr>
-                <tr>
-                    <td class="description"></td>
-                    <td><a href="https://kizenkov.github.io/umniki/">Umniki</a></td>
-                </tr>
-                <tr>
-                    <td class="description"></td>
-                    <td><a href="https://kizenkov.github.io/startup-summer-2021/">Search a github user</a></td>
-                </tr>
-            </table>
-        </div>
-        <div id="education">
-            <table>
-                <tr>
-                    <td class="description">University:</td>
-                    <td>Belarussian state university of Transport (2008-2013)</td>
-                </tr>
-                <tr>
-                    <td class="description">Academic degree:</td>
-                    <td>master (2013-2014)</td>
-                </tr>
-                <tr>
-                    <td class="description">Specialty:</td>
-                    <td>transport</td>
-                </tr>
-            </table>
-        </div>
-        <div id="work">
-            <table>
-                <tr>
-                    <td class="description">Place of work:</td>
-                    <td>Belarussian railway, transportation control center</td>
-                </tr>
-                <tr>
-                    <td class="description">Position:</td>
-                    <td>train dispatcher (2015-2021)</td>
-                </tr>
-            </table>
-        </div>
-        <div id="contacts">
-            <table>
-                <tr id="mobile">
-                    <td class="description">Mobile:</td>
-                    <td><span id="number"></span><img src="phone.png" alt="phone" id="buttonPhone"></td>
-                </tr>
-                <tr>
-                    <td class="description">email:</td>
-                    <td>vadimkizenkov@mail.ru</td>
-                </tr>
-            </table>
+        <div class="col-sm-9 col-xs-12 ps-3">
+            <div class="row fw-bold fs-2">Vadim</div>
+            <div class="row fw-bold fs-1">Kizenkov</div>
+            <div class="row align-items-center ">
+                <div class="col-sm-7 col-xs-12 fw-bold fs-6 px-0 py-2">Front-end developer</div>
+                <div class="col-sm-5 col-xs-12 px-0 py-1 text-end">
+                    <a href="http://instagram.com/kizenkov_" class="link-light" target="_blank"><i class="bi bi-instagram fs-3 px-2"></i></a>
+                    <a href="http://t.me/cleverkudvin" class="link-light" target="_blank"><i class="bi bi-telegram fs-3 px-2"></i></a>
+                    <a href="https://github.com/kizenkov/" class="link-light" target="_blank"><i class="bi bi-github fs-3 px-2"></i></a>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="index.js"></script>
-</body>
 
+    <div class="row bg-light p-5 ">
+        <div class="col-sm-3 col-xs-12 p-2 py-3 fw-bold">
+            Contacts
+        </div>
+        <div class="col-sm-9 col-xs-12 p-2 ps-3">
+            <div class="row">
+                <div class="col-md-4 col-sm-3 col-xs-12 py-2">
+                    <div class=" fw-bold ">Location</div>
+                    <div>Minsk, Belarus</div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 py-2">
+                    <div class=" fw-bold ">Phone</div>
+                    <div>+375 33 695 08 99</div>
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-12 py-2">
+                    <div class=" fw-bold ">E-mail</div>
+                    <div>vadimkizenkov@mail.ru</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row bg-secondary p-5 ">
+        <div class="col-sm-3 col-xs-12 p-2 fw-bold">
+            Skills
+        </div>
+        <div class="col-sm-9 col-xs-12 p-2 ps-3">
+            JS, HTML5, CSS3, React/Redux, Grid, Axios, Git, Bootstrap
+        </div>
+    </div>
+
+    <div class="row bg-light p-5 ">
+        <div class="col-sm-3 col-xs-12 p-2 fw-bold">
+            Projects
+        </div>
+        <div class="col-sm-9 col-xs-12 p-2 ps-3">
+            <div><a href="https://kudvin.netlify.app/" target="_blank">CleverKUDViN</a></div>
+            <div>Exercises for children from 3 to 8 years old (React + Bootstrap)</div>
+            <br>
+            <div><a href="https://startup-summer-2021.netlify.app/" target="_blank">GithubSearch</a></div>
+            <div>Project for searching github's users and their repositories (React+CSS)</div>
+            <br>
+            <div><a href="https://minsk-pass.000webhostapp.com/" target="_blank">Minsk-pass</a></div>
+            <div>
+                Questionnaire with the output of the survey <a href="https://minsk-pass.000webhostapp.com/result.php">results</a> (PHP+MySQL)
+            </div>
+            <br>
+            <div><a href="https://kizenkov.github.io/soccorn/" target="_blank">Social network</a></div>
+            <div>
+                (Desktop version) Login: <span class="login">kizenkov@tut.by</span> Password: <span class="login">free</span> (React)
+            </div>
+        </div>
+    </div>
+
+    <div class="row bg-secondary p-5 ">
+        <div class="col-sm-3 col-xs-12 p-2 fw-bold">
+            Education
+        </div>
+        <div class="col-sm-9 col-xs-12 p-2 ps-3">
+            <div class="fw-bold">University</div>
+            <div>Belarussian state university of Transport (2008-2013)</div>
+            <br>
+            <div class="fw-bold">Academic degree</div>
+            <div>Master (2013-2014)</div>
+            <br>
+            <div class="fw-bold">Specialty</div>
+            <div>Transport</div>
+        </div>
+    </div>
+
+    <div class="row bg-light p-5 ">
+        <div class="col-sm-3 col-xs-12 p-2 fw-bold">
+            Work
+        </div>
+        <div class="col-sm-9 col-xs-12 p-2 ps-3">
+            <div class="fw-bold">Place of work</div>
+            <div>Belarussian railway, transportation control center</div>
+            <br>
+            <div class="fw-bold">Position</div>
+            <div>Train dispatcher (2015-2021)</div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
 </html>
