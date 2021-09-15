@@ -6,3 +6,8 @@
     color: limegreen;
 }
 
+#name, #contacts, #skills, #projects, #education, #work {
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+
