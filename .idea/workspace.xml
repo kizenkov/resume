@@ -19,7 +19,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../soccorn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -34,6 +34,7 @@
       <workItem from="1631402377899" duration="489000" />
       <workItem from="1631454981972" duration="19973000" />
       <workItem from="1631609908735" duration="2614000" />
+      <workItem from="1634075987813" duration="252000" />
     </task>
     <servers />
   </component>
